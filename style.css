@@ -1,0 +1,51 @@
+
+body{
+    line-height: 0.8;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+li{
+    list-style: none;
+}
+ul{
+    height: 24px;
+}
+.height-120{
+    height: 120px;
+}
+.logo-dim{
+    width: 86px;
+    height: 28px;
+}
+.ms-105{
+    margin-left: 105px;
+}
+
+.ms-250{
+    margin-left: 200px;
+}
+.demo{
+    width: 215px;
+    background-color: #FF6645;
+    border: none;
+}
+.dms{
+    height: 6px;
+    width: 12px;
+    margin-left: 5px;
+    color: black;
+}
+
+@media (min-width:993px) and (max-width:1280px){
+    .ms-105{
+        margin-left: 50px;
+    }
+    .ms-250{
+        margin-left: 50px;
+    }
+}
