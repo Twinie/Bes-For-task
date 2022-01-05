@@ -56,6 +56,13 @@ h3{
 }
 .main-image{
     padding-bottom: 200px;
+    position: relative;
+}
+.abstract-image{
+    position: absolute;
+    top: 650px;
+    left: 450px;
+    z-index: -1;
 }
 .para-dim{
     width: 490px;
