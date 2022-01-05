@@ -12,22 +12,32 @@ a{
 li{
     list-style: none;
 }
+.f-15{
+    font-size: 15px;
+}
+.f-18{
+    font-size: 18px;
+}
 ul{
     height: 24px;
+}
+h3{
+    font-size: 48px;
 }
 .height-120{
     height: 120px;
 }
-.logo-dim{
+.navbar-brand{
     width: 86px;
-    height: 28px;
+    height: 34px;
+    margin-left: 42px;
 }
 .ms-105{
     margin-left: 105px;
 }
 
 .ms-250{
-    margin-left: 200px;
+    margin-left: 260px;
 }
 .demo{
     width: 215px;
@@ -37,15 +47,48 @@ ul{
 .dms{
     height: 6px;
     width: 12px;
-    margin-left: 5px;
+    margin-left: 2px;
     color: black;
 }
+.arrow-dim{
+    width: 16px;
+    height: 12px;
+}
+.main-image{
+    padding-bottom: 200px;
+}
+.para-dim{
+    width: 490px;
+    line-height: normal;
+}
+.button-border{
+    background-color: #FF6645;
+    border: none;
+    border-radius: 10px;
+    width: 206px;
+}
+.review-box-container{
+    margin-top: 65px;
+}
+.review-box{
+width: 144px;
+height: 109px;
+margin-right: 65px;
+}
+.center-logo{
+    width:85px;
+    height: 25px;
+}
+.tesconet-logo{
+    width: 85px;
+    height: 12px;
+}
 
-@media (min-width:993px) and (max-width:1280px){
+/* @media (min-width:992px) and (max-width:1400px){
     .ms-105{
         margin-left: 50px;
     }
     .ms-250{
         margin-left: 50px;
     }
-}
+} */
