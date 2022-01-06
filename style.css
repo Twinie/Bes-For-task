@@ -24,13 +24,21 @@ ul{
 h3{
     font-size: 48px;
 }
-.height-120{
-    height: 120px;
+.height-105{
+    height: 105px;
 }
 .navbar-brand{
+    padding-bottom: 0;
+    padding-top: 0;
     width: 86px;
-    height: 34px;
-    margin-left: 42px;
+    height: 28px;
+}
+.main-image-dim{
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-fluid-dim{
+    width: max-content;
 }
 .ms-105{
     margin-left: 105px;
@@ -60,8 +68,8 @@ h3{
 }
 .abstract-image{
     position: absolute;
-    top: 650px;
-    left: 450px;
+    top: 475px;
+    left: 325px;
     z-index: -1;
 }
 .para-dim{
@@ -91,11 +99,11 @@ margin-right: 65px;
     height: 12px;
 }
 
-/* @media (min-width:992px) and (max-width:1400px){
-    .ms-105{
-        margin-left: 50px;
+@media (min-width:768px) and (max-width:992px){
+    .abstract-image {
+        position: absolute;
+        top: 475px;
+        left: 430px;
+        z-index: -1;
     }
-    .ms-250{
-        margin-left: 50px;
-    }
-} */
+}
