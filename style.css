@@ -33,7 +33,11 @@ ul {
 }
 h3 {
     font-size: 48px;
+        text-decoration: underline;
+        text-decoration-thickness: 0.04em;
+        text-underline-offset: 0.03em;     
 }
+
 h4 {
     font-size: 34px;
     font-weight: bold;
