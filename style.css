@@ -8,7 +8,7 @@ a {
   color: black;
 }
 a:hover{
-    color: white;
+    color: #ff6645;
 }
 li {
   list-style: none;
@@ -73,10 +73,8 @@ h5 {
   padding: 0 2px;
 }
 .navitems-dim:hover {
-    background-color: #ff6645;
-    color: white;
-    border-radius: 5px;
-  }
+color: #ff6645;
+}
 .main-image-dim {
   padding-left: 0;
   padding-right: 0;
@@ -94,9 +92,7 @@ h5 {
   padding: 0 2px;
 }
 .ms-log-in:hover {
-    background-color: #ff6645;
-    color: white;
-    border-radius: 5px;
+    color: #ff6645;
 }
 .demo {
   width: 215px;
@@ -193,6 +189,9 @@ h5 {
 .try-for-free {
   margin-right: 10px;
   margin-bottom: 0;
+}
+.try-for-free:hover {
+    color: black;
 }
 .review-box-container {
   margin-top: 65px;
@@ -482,6 +481,9 @@ h5 {
     position: relative;
     text-align: center;
   }
+  .main-box{
+    margin-bottom: 25px;
+  }
   .img-dim {
     max-width: 400px;
     max-height: 500px;
@@ -515,6 +517,9 @@ h5 {
   }
   .demo {
     margin-top: 0;
+  }
+  .main-box{
+    margin-bottom: 25px;
   }
   /* .ms-log-in {
         margin-left: 10px;
