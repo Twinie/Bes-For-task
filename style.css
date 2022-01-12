@@ -5,17 +5,15 @@ body {
 }
 a {
   text-decoration: none;
+  color: black;
+}
+a:hover{
+    color: white;
 }
 li {
   list-style: none;
 }
-li:hover {
-   border: #ff6645 1px solid;
-   border-radius: 3px;
-}
-.navbar-nav .nav-link {
-    color: black;
-}
+
 .f-12 {
   font-size: 12px;
 }
@@ -71,8 +69,14 @@ h5 {
   margin: 0;
 }
 .navitems-dim {
-  margin: 0 37px 0 0;
+  margin: 0 35px 0 0;
+  padding: 0 2px;
 }
+.navitems-dim:hover {
+    background-color: #ff6645;
+    color: white;
+    border-radius: 5px;
+  }
 .main-image-dim {
   padding-left: 0;
   padding-right: 0;
@@ -86,7 +90,13 @@ h5 {
 }
 .ms-log-in {
   margin-left: 240px;
-  margin-right: 23px;
+  margin-right: 21px;
+  padding: 0 2px;
+}
+.ms-log-in:hover {
+    background-color: #ff6645;
+    color: white;
+    border-radius: 5px;
 }
 .demo {
   width: 215px;
@@ -95,6 +105,19 @@ h5 {
   background-color: #ff6645;
   border: none;
   margin-top: -13px;
+}
+.demo-spec{
+    color: #fff;
+}
+.demo-spec:hover{ 
+    color: black;  
+}
+.fa-arrow-right{
+    color: white;
+    font-size: 18px;
+}
+.fa-arrow-right:hover {
+    color: black;
 }
 .dms {
   height: 6px;
@@ -167,10 +190,6 @@ h5 {
     border: #070707;
     border-radius: 10px;
 }
-.fa-arrow-right {
-  font-size: 18px;
-  color: white;
-}
 .try-for-free {
   margin-right: 10px;
   margin-bottom: 0;
@@ -229,13 +248,13 @@ h5 {
   color: #ff6645;
   font-size: 12px;
   padding: 10px;
+  border: none;
 }
-/* .learn-more-para:hover {
-    background-color: red;
-    color: blanchedalmond;
+.learn-more-para:hover {
+    border: #ff6645 1px solid;
     padding: 10px;
-    border-radius: 10px;
-} */
+    border-radius: 5px;
+}
 .overlap-image-row {
   margin-top: 150px;
   margin-bottom: 150px;
@@ -312,7 +331,7 @@ h5 {
   height: 80px;
 }
 .client-name {
-  line-height: 2px;
+  padding-bottom: 6px;
 }
 .review {
   width: 128px;
@@ -597,6 +616,7 @@ h5 {
   }
   .main-box {
     padding: 46px 0px 0px 0px;
+    margin-bottom: 25px;
   }
   .main-image {
     width: 100%;
@@ -625,9 +645,11 @@ h5 {
   }
   .overlap-image-dim {
     text-align: center;
+    margin-bottom: 50px;
   }
   .double-image-dim {
     text-align: center;
+    margin-top: 50px;
   }
   .overlap-img-col {
     text-align: center;
