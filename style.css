@@ -69,7 +69,7 @@ h5 {
   margin: 0;
 }
 .navitems-dim {
-  margin: 0 35px 0 0;
+  margin: 0 45px 0 0;
   padding: 0 2px;
 }
 .navitems-dim:hover {
@@ -83,12 +83,13 @@ color: #ff6645;
 .container-fluid-dim {
   padding: 0 55px;
 }
-.besnik-dim {
-  margin-left: 97px;
+.anchor-item {
+  margin-left: 105px;
 }
+
 .ms-log-in {
-  margin-left: 240px;
-  margin-right: 21px;
+  margin-left: 230px;
+  margin-right: 30px;
   padding: 0 2px;
 }
 .ms-log-in:hover {
@@ -116,6 +117,11 @@ color: #ff6645;
   height: 6px;
   width: 12px;
   color: black;
+}
+.down-arrow{
+  width: 12px;
+  height: 6px;
+  margin-left: 8px;
 }
 /* .arrow-dim {
     width: 16px;
@@ -395,15 +401,18 @@ color: #ff6645;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1100px) {
   .ms-log-in {
-    margin-left: 45px;
+    margin-left: 58px;
   }
-  .besnik-dim {
+  /* .besnik-dim {
     margin-left: 36px;
+  } */
+  .anchor-item{
+    margin-left: 30px;
   }
   .navitems-dim {
-    margin: 0 15px 0 0;
+    margin: 0 20px 0 0;
   }
   .abstract-curve {
     display: none;
@@ -413,12 +422,15 @@ color: #ff6645;
   }
 }
 @media (min-width: 1201px) and (max-width: 1352px) {
+  .anchor-item{
+    margin-left: 75px;
+  }
   .ms-log-in {
     margin-left: 180px;
   }
-  .besnik-dim {
+  /* .besnik-dim {
     margin-left: 50px;
-  }
+  } */
   .navitems-dim {
     margin: 0 25px 0 0;
   }
@@ -471,7 +483,8 @@ color: #ff6645;
     align-items: center;
   }
 }
-@media (min-width: 992px) and (max-width: 1201px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+  
   .main-image-container {
     display: block;
     margin: 0 auto;
@@ -498,18 +511,41 @@ color: #ff6645;
     padding: 0;
   }
 }
-
-@media (min-width: 576px) and (max-width: 991px) {
+@media (min-width: 1101px) and (max-width:1200px){
+  .anchor-item{
+    margin-left: 40px;
+  }
+  .ms-log-in {
+    margin-left: 70px;
+  }
+  .navitems-dim {
+    margin: 0 30px 0 0;
+  }
+}
+@media (max-width: 992px) {  
+  .navbar-dim {
+    line-height: 75px;
+  } 
+}
+/* @media (max-width: 991px) {  
+  .navbar-dim {
+    line-height: 35px;
+  } 
+  .navbar-collapse {
+    height: 230px;
+  }
+} */
+@media (min-width: 576px) and (max-width: 992px) {
   /* .navitems-dim{
         height: max-content;
     } */
   .navbar-collapse {
-    height: 300px;
+    height: 230px;
   }
   .navbar-dim {
-    line-height: 30px;
+    line-height: 35px;
   }
-  .besnik-dim {
+  .anchor-item {
     margin-left: 0;
   }
   .ms-log-in {
